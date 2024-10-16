@@ -21,6 +21,8 @@ section#paste {
       font-size: 35px;
 
       text-align: center;
+
+      color: #303030;
     }
     .link-to-paste {
       text-align: center;
@@ -53,11 +55,9 @@ section#paste {
       }
     }
     p {
-      display: grid;
-
       text-align: center;
 
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 }
