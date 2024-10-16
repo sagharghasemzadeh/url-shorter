@@ -1,36 +1,51 @@
 section#paste {
   display: grid;
+
   background-color: white;
+
   .box {
     border: 1px solid black;
 
     display: inline-grid;
+
     padding-inline: 35px;
     h2 {
       font-size: 35px;
+
       text-align: center;
     }
     .link-to-paste {
       text-align: center;
+
       display: flex;
+
       justify-content: space-between;
+
       border: 1px solid black;
       .box-2 {
         padding-inline: 20px;
+
         font-size: 15px;
+
         color: #777575;
       }
       .shorten-url {
         padding-block: 25px;
+        padding-inline: 25px;
+
         color: white;
         background-color: #2c87c5;
         font-size: 15px;
+
         font-weight: bold;
         border-style: none;
       }
-      .p {
-        display: grid;
-      }
+    }
+    p {
+      display: grid;
+
+      justify-items: center;
+      align-content: center;
     }
   }
 }
