@@ -1,0 +1,23 @@
+section#explanation {
+  padding-inline: 300px;
+  padding-block: 100px;
+
+  .simple-fast {
+    font-size: 30px;
+    color: #303030;
+  }
+  .simple {
+    font-size: 20px;
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+  }
+  .shorten-share {
+    font-size: 30px;
+    color: #303030;
+  }
+  .shorten {
+    font-size: 20px;
+  }
+}
