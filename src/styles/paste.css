@@ -1,14 +1,22 @@
 section#paste {
   display: grid;
 
-  background-color: white;
+  padding-inline: 300px;
 
   .box {
-    border: 1px solid black;
-
     display: inline-grid;
 
-    padding-inline: 35px;
+    border-radius: 10px;
+
+    padding-inline: 50px;
+    padding-block: 25px;
+
+    box-shadow:
+      2px 2px 1px #cfcccc,
+      -2px -2px 1px #cfcccc;
+
+    background-color: white;
+
     h2 {
       font-size: 35px;
 
@@ -21,11 +29,14 @@ section#paste {
 
       justify-content: space-between;
 
-      border: 1px solid black;
+      border: 1px solid white;
+      box-shadow:
+        inset 2px 2px 1px #cfcccc,
+        inset -2px -2px 1px #cfcccc;
       .box-2 {
         padding-inline: 20px;
 
-        font-size: 15px;
+        font-size: 25px;
 
         color: #777575;
       }
@@ -44,8 +55,9 @@ section#paste {
     p {
       display: grid;
 
-      justify-items: center;
-      align-content: center;
+      text-align: center;
+
+      font-size: 20px;
     }
   }
 }
