@@ -6,12 +6,19 @@ section#services {
     gap: 35px;
 
     padding-inline: 300px;
-    padding-block: 100px;
+    padding-block: 20px;
 
     > li {
       list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
       img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       h2 {

@@ -2,7 +2,7 @@ section#premium {
   display: grid;
 
   padding-inline: 300px;
-  padding-block: 100px;
+  padding-block: 20px;
 
   .box-3 {
     display: inline-grid;
