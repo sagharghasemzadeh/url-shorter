@@ -10,16 +10,9 @@ section#services {
 
     > li {
       list-style: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
 
-      img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+      display: grid;
+      place-items: center;
 
       h2 {
         text-align: center;
