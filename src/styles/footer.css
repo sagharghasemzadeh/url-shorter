@@ -1,9 +1,15 @@
 section#footer {
   .footer-box {
     background-color: #333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     .line {
     }
     h3 {
+      color: white;
     }
     .footer-links {
       list-style: none;
