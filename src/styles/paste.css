@@ -18,9 +18,10 @@ section#paste {
       color: #303030;
     }
     .form {
-      text-align: center;
       display: flex;
       .input {
+        flex: 1 1 0;
+
         font-size: 20px;
 
         color: #777575;
@@ -28,7 +29,6 @@ section#paste {
         border: 1px solid #ccc;
         border-inline-end: none;
 
-        flex: 1 1 0;
         border-start-start-radius: 5px;
         border-end-start-radius: 5px;
       }
