@@ -2,3 +2,7 @@ body {
   font-family: asap, arial, Serif;
   background: #f9f9f9;
 }
+p {
+  font-size: 1rem;
+  text-align: center;
+}

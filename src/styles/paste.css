@@ -1,19 +1,12 @@
 section#paste {
-  display: grid;
-
-  padding-inline: 300px;
-
-  .box {
-    display: inline-grid;
-
+  max-width: 800px;
+  margin: auto;
+  .card {
     border-radius: 10px;
 
-    padding-inline: 50px;
-    padding-block: 25px;
+    padding: 25px 50px;
 
-    box-shadow:
-      2px 2px 1px #cfcccc,
-      -2px -2px 1px #cfcccc;
+    box-shadow: 0 0 1px 2px #cfcccc;
 
     background-color: white;
 
@@ -24,47 +17,35 @@ section#paste {
 
       color: #303030;
     }
-    .link-to-paste {
+    .form {
       text-align: center;
-
       display: flex;
-
-      justify-content: space-between;
-      align-items: center;
-
-      border: 1px solid white;
-      box-shadow:
-        inset 2px 2px 1px #cfcccc,
-        inset -2px -2px 1px #cfcccc;
-
-      border-radius: 5px;
-      overflow: hidden;
-      .box-2 {
-        padding-inline: 20px;
-
+      .input {
         font-size: 20px;
 
         color: #777575;
+
+        border: 1px solid #ccc;
+        border-inline-end: none;
+
+        flex: 1 1 0;
+        border-start-start-radius: 5px;
+        border-end-start-radius: 5px;
       }
-      .shorten-url {
+      button {
         padding-block: 20px;
         padding-inline: 25px;
 
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
+        border-end-end-radius: 5px;
+        border-start-end-radius: 5px;
 
         color: white;
         background-color: #2c87c5;
         font-size: 15px;
 
-        font-weight: bold;
-        border-style: none;
+        font-weight: 700;
+        border: none;
       }
-    }
-    p {
-      text-align: center;
-
-      font-size: 18px;
     }
   }
 }
