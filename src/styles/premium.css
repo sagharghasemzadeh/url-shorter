@@ -1,20 +1,18 @@
 section#premium {
   display: grid;
 
-  padding-inline: 300px;
-  padding-block: 20px;
+  max-width: 800px;
+  margin: auto;
 
-  .box-3 {
-    display: inline-grid;
+  padding: 20px 20px;
+
+  .card {
+    display: grid;
 
     border-radius: 10px;
 
     padding-inline: 50px;
     padding-block: 25px;
-
-    box-shadow:
-      2px 2px 1px #cfcccc,
-      -2px -2px 1px #cfcccc;
 
     background-color: white;
 
@@ -23,16 +21,12 @@ section#premium {
       color: #303030;
       font-size: 30px;
     }
-    .premium {
-      text-align: center;
-      font-size: 18px;
-    }
-    .create-account {
+
+    a {
       justify-self: center;
       text-align: center;
 
-      padding-inline: 25px;
-      padding-block: 25px;
+      padding: 25px 25px;
 
       text-decoration: none;
       color: white;
@@ -40,11 +34,8 @@ section#premium {
 
       border-radius: 5px;
 
-      width: 120px;
-      height: 15px;
-
       font-size: 15px;
-      font-weight: bold;
+      font-weight: 700;
     }
   }
 }

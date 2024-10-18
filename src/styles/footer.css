@@ -1,16 +1,17 @@
-section#footer {
-  .footer-box {
-    background-color: #333;
+footer {
+  background-color: #333;
 
-    display: flex;
+  display: grid;
 
-    .line {
-    }
-    h3 {
-    }
-    .footer-links {
-      li {
-      }
+  .line {
+    height: 1px;
+    width: 1rem;
+    color: blue;
+  }
+  h3 {
+  }
+  .footer-links {
+    li {
     }
   }
 }
