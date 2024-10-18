@@ -1,23 +1,23 @@
 section#explanation {
-  padding-inline: 300px;
+  max-width: 800px;
+  margin: auto;
+
   padding-block: 20px;
 
-  .simple-fast {
+  h2 {
     font-size: 30px;
     color: #303030;
   }
-  .simple {
+  p {
     font-size: 20px;
     a {
-      text-decoration: none;
-      color: blue;
     }
   }
-  .shorten-share {
+  h2 {
     font-size: 30px;
     color: #303030;
   }
-  .shorten {
+  p {
     font-size: 20px;
   }
 }
