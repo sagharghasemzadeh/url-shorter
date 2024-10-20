@@ -1,0 +1,17 @@
+footer {
+  background-color: #333;
+
+  display: grid;
+
+  .line {
+    height: 1px;
+    width: 1rem;
+    color: blue;
+  }
+  h3 {
+  }
+  ul {
+    li {
+    }
+  }
+}

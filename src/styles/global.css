@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: asap, arial, Serif;
+  background-color: #f9f9f9;
+}
+p {
+  font-size: 1rem;
+  text-align: center;
+}
+.card {
+  box-shadow: 0 0 1px 2px #cfcccc;
+  gap: 1rem;
+}
