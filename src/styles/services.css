@@ -3,10 +3,10 @@ section#services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    gap: 35px;
+    gap: 2rem;
 
-    padding-inline: 300px;
-    padding-block: 20px;
+    padding-inline: 19rem;
+    padding-block: 1.5rem;
 
     > li {
       list-style: none;

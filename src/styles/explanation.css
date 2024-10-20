@@ -1,27 +1,13 @@
 section#explanation {
-  max-width: 800px;
+  max-width: 50rem;
   margin: auto;
 
-  padding-block: 20px;
+  padding-block: 1.5rem;
+
+  text-align: start;
 
   h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     color: #303030;
-  }
-
-  p {
-    font-size: 20px;
-
-    a {
-    }
-  }
-
-  h2 {
-    font-size: 30px;
-    color: #303030;
-  }
-
-  p {
-    font-size: 20px;
   }
 }
