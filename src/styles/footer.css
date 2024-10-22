@@ -7,12 +7,7 @@ footer {
 
   padding: 1rem;
 
-  .line {
-    border: 1px solid hsl(240, 100%, 50%);
-    height: 5px;
-
-    background-color: hsl(240, 100%, 50%);
-  }
+  border-block-start: 5px solid hsl(240, 100%, 50%);
 
   p {
     color: hsl(0, 0%, 100%);
