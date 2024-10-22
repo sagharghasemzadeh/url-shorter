@@ -16,7 +16,7 @@ section#paste {
     text-align: center;
   }
 
-  .form {
+  form {
     display: flex;
 
     .input {
