@@ -1,9 +1,9 @@
-header{
-    justify-content: center;
+header {
+  justify-content: center;
 
-    display: flex;
+  display: flex;
 
-    color: #2c87c5;
+  color: hsl(204, 63%, 47%);
 
-    font-size: 25px;
+  font-size: 25px;
 }

@@ -1,13 +1,13 @@
 footer {
-  background-color: #333;
+  background-color: hsl(0, 0%, 20%);
 
   display: grid;
 
   .line {
-    border: 1px solid blue;
+    border: 1px solid hsl(240, 100%, 50%);
     height: 5px;
 
-    background-color: blue;
+    background-color: hsl(240, 100%, 50%);
   }
 
   p {

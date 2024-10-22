@@ -9,7 +9,7 @@ section#premium {
 
   h2 {
     text-align: center;
-    color: #303030;
+    color: hsl(0, 0%, 19%);
     font-size: 1.5rem;
   }
 
@@ -21,7 +21,7 @@ section#premium {
 
     text-decoration: none;
     color: hsl(0, 0%, 100%);
-    background-color: #2c87c5;
+    background-color: hsl(204, 63%, 47%);
 
     border-radius: 0.5rem;
   }
