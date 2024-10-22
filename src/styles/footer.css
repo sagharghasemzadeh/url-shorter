@@ -1,0 +1,25 @@
+footer {
+  background-color: hsl(0, 0%, 20%);
+
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+
+  padding: 1rem;
+
+  border-block-start: 5px solid hsl(240, 100%, 50%);
+
+  p {
+    color: hsl(0, 0%, 100%);
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+
+    list-style: none;
+
+    li {
+    }
+  }
+}

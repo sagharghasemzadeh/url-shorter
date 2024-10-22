@@ -1,0 +1,17 @@
+section#explanation {
+  max-width: 50rem;
+  margin: auto;
+
+  padding-block: 1.5rem;
+
+  text-align: start;
+
+  h2 {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 19%);
+  }
+
+  p {
+    margin-block: 1rem;
+  }
+}

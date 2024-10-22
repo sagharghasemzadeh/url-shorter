@@ -1,0 +1,9 @@
+header {
+  justify-content: center;
+
+  display: flex;
+
+  color: hsl(204, 63%, 47%);
+
+  font-size: 1.5rem;
+}
