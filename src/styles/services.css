@@ -9,21 +9,13 @@ section#services {
     padding-block: 1.5rem;
 
     > li {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+      display: grid;
+      place-items: center;
 
       h2 {
         text-align: center;
-        font-weight: bold;
+
+        font-weight: 700;
 
         color: #303030;
       }
