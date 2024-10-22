@@ -3,6 +3,7 @@ section#paste {
   margin: auto;
 
   padding: 20px 20px;
+
   h2 {
     font-size: 35px;
 
@@ -17,6 +18,7 @@ section#paste {
 
   .form {
     display: flex;
+
     .input {
       flex: 1 1 0;
 
