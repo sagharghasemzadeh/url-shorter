@@ -1,0 +1,15 @@
+section#links {
+  max-width: 50rem;
+  margin: auto;
+
+  h2 {
+    margin-block-end: 1rem;
+  }
+
+  ul {
+    list-style: none;
+
+    display: grid;
+    gap: 1rem;
+  }
+}
