@@ -19,7 +19,9 @@ section#paste {
   form {
     display: flex;
 
-    .input {
+    margin-block: 2rem 1rem;
+
+    input {
       flex: 1 1 0;
 
       font-size: 1.25rem;
