@@ -17,5 +17,13 @@ function addUrlToList(url) {
   item.classList.add("card");
   item.innerHTML = url;
 
+  const button = document.createElement("button");
+  button.innerHTML = "Delete";
+
+  button.addEventListener("click", () => {
+    item.remove();
+  });
+
+  item.append(button);
   list.append(item);
 }
