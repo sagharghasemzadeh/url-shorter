@@ -5,10 +5,12 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: asap, arial, Serif;
   background-color: hsl(0, 0%, 98%);
 }
+
 p {
   font-size: 1rem;
 
