@@ -21,7 +21,11 @@ function addUrlToList(url) {
   button.innerHTML = "Delete";
 
   button.addEventListener("click", () => {
-    item.remove();
+    const isOk = confirm(`You are about to delete "${url}". Are you sure?`);
+
+    if (isOk) {
+      item.remove();
+    }
   });
 
   item.append(button);
