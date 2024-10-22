@@ -26,6 +26,7 @@ function addUrlToList(url) {
 
     if (isOk) {
       item.remove();
+      remove(url);
     }
   });
 
