@@ -1,11 +1,11 @@
 section#paste {
-  max-width: 800px;
+  max-width: 50rem;
   margin: auto;
 
-  padding: 20px 20px;
+  padding: 1.25rem 1.25rem;
 
   h2 {
-    font-size: 35px;
+    font-size: 2rem;
 
     text-align: center;
 
@@ -22,26 +22,26 @@ section#paste {
     .input {
       flex: 1 1 0;
 
-      font-size: 20px;
+      font-size: 1.25rem;
 
       color: hsl(0, 1%, 46%);
 
       border: 1px solid hsl(0, 0%, 80%);
       border-inline-end: none;
 
-      border-start-start-radius: 5px;
-      border-end-start-radius: 5px;
+      border-start-start-radius: 0.25rem;
+      border-end-start-radius: 0.25rem;
     }
 
     button {
-      padding: 20px 25px;
+      padding: 1.25rem 1.5rem;
 
-      border-end-end-radius: 5px;
-      border-start-end-radius: 5px;
+      border-end-end-radius: 0.25rem;
+      border-start-end-radius: 0.25rem;
 
       color: hsl(0, 0%, 100%);
       background-color: hsl(204, 63%, 47%);
-      font-size: 15px;
+      font-size: 1rem;
 
       font-weight: 700;
       border: none;
