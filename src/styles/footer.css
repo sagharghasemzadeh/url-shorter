@@ -3,6 +3,9 @@ footer {
 
   display: grid;
   justify-items: center;
+  gap: 1rem;
+
+  padding: 1rem;
 
   .line {
     border: 1px solid hsl(240, 100%, 50%);
