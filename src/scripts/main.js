@@ -19,10 +19,10 @@ function addUrlToList(url) {
   item.innerHTML = url;
 
   const button = document.createElement("button");
-  button.innerHTML = "Delete";
+  button.innerHTML = "Remove";
 
   button.addEventListener("click", () => {
-    const isOk = confirm(`You are about to delete "${url}". Are you sure?`);
+    const isOk = confirm(`You are about to remove "${url}". Are you sure?`);
 
     if (isOk) {
       item.remove();
