@@ -8,6 +8,8 @@ form.addEventListener("submit", (e) => {
   const url = formData.get("url");
 
   addUrlToList(url);
+
+  form.reset();
 });
 
 function addUrlToList(url) {
