@@ -16,9 +16,38 @@ form.addEventListener("submit", (e) => {
 function addUrlToList(url) {
   const item = document.createElement("li");
   item.classList.add("card");
-  item.innerHTML = url;
 
+  const text = createText(url);
+  const editButton = createEditButton(url, item);
+  const removeButton = createRemoveButton(url, item);
+
+  item.append(text);
+  item.append(editButton);
+  item.append(removeButton);
+  list.append(item);
+}
+
+function createText(url) {
+  const text = document.createElement("div");
+  text.classList.add("text");
+  text.innerHTML = url;
+
+  return text;
+}
+
+function createEditButton(url, item) {
   const button = document.createElement("button");
+  button.classList.add("edit");
+  button.innerHTML = "Edit";
+
+  button.addEventListener("click", () => {});
+
+  return button;
+}
+
+function createRemoveButton(url, item) {
+  const button = document.createElement("button");
+  button.classList.add("remove");
   button.innerHTML = "Remove";
 
   button.addEventListener("click", () => {
@@ -30,6 +59,5 @@ function addUrlToList(url) {
     }
   });
 
-  item.append(button);
-  list.append(item);
+  return button;
 }
