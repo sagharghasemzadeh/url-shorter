@@ -5,6 +5,8 @@ section#premium {
 
   p {
     text-align: center;
+
+    margin-block: 1rem;
   }
 
   h2 {
@@ -14,9 +16,11 @@ section#premium {
   }
 
   a {
-    justify-self: center;
-    text-align: center;
+    display: block;
 
+    width: fit-content;
+
+    margin: auto;
     padding: 1.5rem 1.5rem;
 
     text-decoration: none;
