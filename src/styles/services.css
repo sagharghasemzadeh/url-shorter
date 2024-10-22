@@ -17,13 +17,13 @@ section#services {
 
         font-weight: 700;
 
-        color: #303030;
+        color: hsl(0, 0%, 19%);
       }
 
       p {
         text-align: center;
 
-        color: #303030;
+        color: hsl(0, 0%, 19%);
       }
     }
   }

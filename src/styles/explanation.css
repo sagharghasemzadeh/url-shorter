@@ -8,6 +8,10 @@ section#explanation {
 
   h2 {
     font-size: 1.5rem;
-    color: #303030;
+    color: hsl(0, 0%, 19%);
+  }
+
+  p {
+    margin-block: 1rem;
   }
 }
