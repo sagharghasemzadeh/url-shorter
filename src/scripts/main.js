@@ -1,5 +1,5 @@
 const form : document.querySelector("section#paste form");
 
-form.addEventListener("submit", (e) : void => {
+form.addEventListener("submit", () : void => {
     console.log("submitted");
 })
